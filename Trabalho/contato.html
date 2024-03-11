@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minha Loja de Joias - Contato</title>
+</head>
+
+<body>
+    <header>
+        <h1>M&N Joias</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="catalago.html">Catálogo</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>ENTRE EM CONTATO</H2>
+
+
+        <form class="contato" action="/processar-contato" method="post">
+            <label for="nome"></label>
+            <input type="text" id="nome" name="nome" required placeholder="Nome">
+
+            <br>
+
+            <label for="email"></label>
+            <input type="email" id="email" name="email" required placeholder="E-mail">
+
+            <br>
+
+            <label for="mensagem"></label>
+            <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Mensagem"></textarea>
+
+            <br>
+
+            <input type="submit" value="Enviar Mensagem" href="mailto:mateus.agcm@gmail.com">
+        </form>
+    </section>
+    <div class="ICONES" >
+        <img class="pro" src="fotos/INSTA.png">
+        <img class="pro"src="fotos/ZAP.png">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 M&N Joias</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

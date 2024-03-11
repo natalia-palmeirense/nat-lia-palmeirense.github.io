@@ -1,0 +1,162 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(180, 127, 14, 0.527);
+    background-size: 100%;
+    color: #f7f7f7;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    margin: 20px;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.produtos {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(66, 43, 12);
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20%;
+}
+
+.carousel-container {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+}
+
+
+.produ:hover {
+    box-shadow: 0px 0px 8px rgb(80, 75, 75)
+}
+
+
+.nav-container {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.next-btn,
+.prev-btn {
+
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 50%;
+    margin: 40px;
+}
+
+.produ {
+    border-radius: 50%;
+}
+
+.contato {
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+
+}
+
+
+
+.contato {
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contato form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contato label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contato input,
+.contato textarea {
+    width: 25%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.contato input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contato input[type="submit"]:hover {
+    background-color: #555;
+}
+.ICONES {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro{
+    width: 75px;
+    height: auto; 
+    margin: 0 10px; 
+}
